@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		643A8426264BBD9A00162C80 /* BallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643A8425264BBD9A00162C80 /* BallManager.swift */; };
+		643A8429264C3A7B00162C80 /* Documentation in Resources */ = {isa = PBXBuildFile; fileRef = 643A8428264C3A7B00162C80 /* Documentation */; };
 		AD7D68C622B8EB54009C798B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7D68C522B8EB54009C798B /* README.md */; };
 		ADE1FB4422B3A4B100DD2BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */; };
 		ADE1FB4622B3A4B100DD2BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		643A8425264BBD9A00162C80 /* BallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallManager.swift; sourceTree = "<group>"; };
 		643A8427264C31FC00162C80 /* Magic 8 Ball.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Magic 8 Ball.entitlements"; sourceTree = "<group>"; };
+		643A8428264C3A7B00162C80 /* Documentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Documentation; sourceTree = "<group>"; };
 		AD7D68C522B8EB54009C798B /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; fileEncoding = 4; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		ADE1FB3722B3A4B100DD2BD6 = {
 			isa = PBXGroup;
 			children = (
+				643A8428264C3A7B00162C80 /* Documentation */,
 				AD7D68C522B8EB54009C798B /* README.md */,
 				ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */,
 				ADE1FB4122B3A4B100DD2BD6 /* Products */,
@@ -160,6 +163,7 @@
 				ADE1FB5022B3A4B300DD2BD6 /* LaunchScreen.storyboard in Resources */,
 				ADE1FB4D22B3A4B300DD2BD6 /* Assets.xcassets in Resources */,
 				AD7D68C622B8EB54009C798B /* README.md in Resources */,
+				643A8429264C3A7B00162C80 /* Documentation in Resources */,
 				ADE1FB4B22B3A4B100DD2BD6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
