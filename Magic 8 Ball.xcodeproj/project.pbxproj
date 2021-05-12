@@ -19,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		643A8425264BBD9A00162C80 /* BallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallManager.swift; sourceTree = "<group>"; };
+		643A8427264C31FC00162C80 /* Magic 8 Ball.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Magic 8 Ball.entitlements"; sourceTree = "<group>"; };
 		AD7D68C522B8EB54009C798B /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; fileEncoding = 4; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 		ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */ = {
 			isa = PBXGroup;
 			children = (
+				643A8427264C31FC00162C80 /* Magic 8 Ball.entitlements */,
 				643A8422264BBD2900162C80 /* Controller */,
 				643A8421264BBD2000162C80 /* View */,
 				643A8420264BBD1700162C80 /* Model */,
@@ -318,6 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Magic 8 Ball/Magic 8 Ball.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 453J5S23QT;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
@@ -327,8 +330,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shmorado.Magic-8-Ball-iOS-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -336,6 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Magic 8 Ball/Magic 8 Ball.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 453J5S23QT;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
@@ -345,8 +350,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shmorado.Magic-8-Ball-iOS-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

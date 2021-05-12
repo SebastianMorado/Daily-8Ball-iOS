@@ -17,52 +17,24 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ehk-T2-L4Y" propertyAccessControl="all">
-                                <rect key="frame" x="0.0" y="5" width="414" height="891"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.45000000000000001" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Ehk-T2-L4Y">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I know all" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt8-bH-PET">
-                                <rect key="frame" x="95" y="141" width="224" height="76"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I know all" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kt8-bH-PET">
+                                <rect key="frame" x="104.5" y="141" width="205.5" height="67"/>
                                 <fontDescription key="fontDescription" name="KohinoorBangla-Regular" family="Kohinoor Bangla" pointSize="47"/>
-                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" systemColor="systemYellowColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What do you ask of the ball?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SF3-3p-S0p">
-                                <rect key="frame" x="54" y="278" width="307" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="23"/>
-                                <color key="textColor" systemColor="secondarySystemBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball5" translatesAutoresizingMaskIntoConstraints="NO" id="Egv-vj-vZb">
-                                <rect key="frame" x="87" y="366" width="240" height="210"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gco-i3-w5O">
-                                <rect key="frame" x="37" y="53" width="357" height="5"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </progressView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You may ask one question today." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZS-q5-QQl">
-                                <rect key="frame" x="37" y="584" width="340" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" systemColor="systemBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yep-1z-LaE">
-                                <rect key="frame" x="37" y="70" width="357" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <color key="textColor" systemColor="systemBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jng-xe-Yw0">
-                                <rect key="frame" x="137" y="713" width="140" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jng-xe-Yw0">
+                                <rect key="frame" x="137" y="712" width="140" height="50"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="aB1-ZA-bhm"/>
+                                    <constraint firstAttribute="height" constant="50" id="jqh-zw-L9Z"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
                                 <state key="normal" title="Hold to ask">
                                     <color key="titleColor" red="0.012037627550000001" green="0.0" blue="0.37917198130000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -77,9 +49,66 @@
                                     <outletCollection property="gestureRecognizers" destination="BQ5-vc-Zsw" appends="YES" id="YaS-Ml-VOP"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="Qog-WU-DvR">
+                                <rect key="frame" x="53.5" y="297" width="307" height="302.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do you ask of the ball?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SF3-3p-S0p">
+                                        <rect key="frame" x="0.0" y="0.0" width="307" height="23"/>
+                                        <fontDescription key="fontDescription" name="HoeflerText-Black" family="Hoefler Text" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ball5" translatesAutoresizingMaskIntoConstraints="NO" id="Egv-vj-vZb">
+                                        <rect key="frame" x="33.5" y="47" width="240" height="210"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="PWQ-bR-gP1"/>
+                                            <constraint firstAttribute="height" constant="210" id="mkg-JA-ATr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You may ask one question today." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZS-q5-QQl">
+                                        <rect key="frame" x="22.5" y="281" width="262" height="21.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="KWK-Ly-dc1">
+                                <rect key="frame" x="28" y="54" width="358" height="37"/>
+                                <subviews>
+                                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="gco-i3-w5O">
+                                        <rect key="frame" x="0.0" y="0.0" width="358" height="4"/>
+                                    </progressView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yep-1z-LaE">
+                                        <rect key="frame" x="0.0" y="16" width="358" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21" id="tQc-wn-eXA"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                        <color key="textColor" systemColor="systemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.11128826530612244" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Ehk-T2-L4Y" secondAttribute="trailing" id="0vv-fq-eSi"/>
+                            <constraint firstItem="Qog-WU-DvR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="296-Pi-pvk"/>
+                            <constraint firstItem="kt8-bH-PET" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6U3-Gb-V5e"/>
+                            <constraint firstItem="KWK-Ly-dc1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="F3C-1d-nFf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KWK-Ly-dc1" secondAttribute="trailing" constant="28" id="G1I-zu-Xgb"/>
+                            <constraint firstItem="KWK-Ly-dc1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="G87-KR-6co"/>
+                            <constraint firstItem="kt8-bH-PET" firstAttribute="top" secondItem="KWK-Ly-dc1" secondAttribute="bottom" constant="50" id="Kcs-k3-dEo"/>
+                            <constraint firstItem="Ehk-T2-L4Y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PkE-fN-bKc"/>
+                            <constraint firstItem="KWK-Ly-dc1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="28" id="cgz-f9-gep"/>
+                            <constraint firstItem="Ehk-T2-L4Y" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="igv-hN-cTD"/>
+                            <constraint firstItem="jng-xe-Yw0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kim-eO-EWm"/>
+                            <constraint firstItem="Qog-WU-DvR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="m2q-4V-uxf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="jng-xe-Yw0" secondAttribute="bottom" constant="100" id="sNV-uc-SYu"/>
+                            <constraint firstAttribute="bottom" secondItem="Ehk-T2-L4Y" secondAttribute="bottom" id="xuK-BU-Iz5"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="askButton" destination="jng-xe-Yw0" id="BsM-fg-Maa"/>
@@ -102,9 +131,6 @@
     <resources>
         <image name="background" width="640" height="960"/>
         <image name="ball5" width="305" height="273.5"/>
-        <systemColor name="secondarySystemBackgroundColor">
-            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
