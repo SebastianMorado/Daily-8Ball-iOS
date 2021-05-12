@@ -1,14 +1,22 @@
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+# Daily 8 Ball
 
-# Magic 8 Ball
+## What is it?
 
-## Our Goal
+This app helps you answer important questions and also helps you make urgent decisions, but only once a day! Ask your question, tap and hold the button, and you will find your answer.
 
-The objective of this challenge is to apply the skills you learned in the Dicee tutorial and get you making an app with functionality all by yourself. There’s no new concepts here. But you’re flyin’ solo this time! Most of the programming skills are gained in the challenges rather than the tutorials. It’s when you’re using your new-found programming skills to bend the app to your will that you’re truly levelling up as a developer.
+## Features
 
-## What you will create
+As a practice project in conjuction with The App Brewery's Complete App Development Bootcamp, the basic features that had to be accomplished were:
+1. Display a random 8 Ball response when Ask button is pressed
 
-We’re going to make a Magic 8 Ball app. You can ask the app to make all your hard decisions! With this app in your pocket, you’ll always have an answer to life’s many conundrums!
+Some additional features I added are:
+1. Make UI responsive to different iPhone and iPad models
+2. Add basic animations to UI elements
+3. Add the UI and functionality for a persistent timer to ensure that the user can only ask one question a day. The progress is updated accurately whether or not the application itself is open. This was done using data storage in UserDefaults.
+
+## Screenshots
+
+<img src="https://github.com/SebastianMorado/Daily-8Ball-iOS/blob/master/Documentation/8ball%20-%20default.png" height="700"> <img src="https://github.com/SebastianMorado/Daily-8Ball-iOS/blob/master/Documentation/8ball%20-%20clicked.png" height="700">
 
 
 
