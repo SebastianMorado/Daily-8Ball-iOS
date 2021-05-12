@@ -14,23 +14,16 @@ protocol BallManagerDelegate {
 }
 
 struct BallManager {
-    var questionCount = 5
+    var canAskQuestion = true
     var delegate : BallManagerDelegate?
     
     mutating func showChoice() {
-        if questionCount > 0{
-            questionCount -= 1
+        if canAskQuestion {
+            canAskQuestion = false
             let newImageTitle = "ball" + String(Int.random(in: 1...4))
             delegate?.updateImage(imageName: newImageTitle)
-            if questionCount == 0 {
-                delegate?.updateLabel(labelText: "You cannot ask any more questions")
-            } else if questionCount == 1 {
-                delegate?.updateLabel(labelText: "You can ask \(questionCount) more question")
-            } else {
-                delegate?.updateLabel(labelText: "You can ask \(questionCount) more questions")
-            }
-        } else {
-            delegate?.updateImage(imageName: "ball5")
+            delegate?.updateLabel(labelText: "You can ask another question tomorrow.")
+
         }
     }
 }
