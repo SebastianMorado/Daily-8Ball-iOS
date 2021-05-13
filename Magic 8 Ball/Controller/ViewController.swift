@@ -26,6 +26,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         ballManager.delegate = self
+        if let timerStart = app.object(forKey: "date") as? Date {
+            let elapsedTime = Date().timeIntervalSince(timerStart)
+            if elapsedTime <= waitTime {
+                timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(onTimerFires), userInfo: nil, repeats: true)
+                self.askButton.alpha = 0
+                self.askButton.isEnabled = false
+                updateLabel(labelText: "You can ask another question tomorrow.")
+            }
+        }
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {
